@@ -45,7 +45,7 @@ func main() {
 func handler(req events.APIGatewayCustomAuthorizerRequest) (events.APIGatewayCustomAuthorizerResponse, error) { //revive:disable-line:line-length-limit
 	user, pass, ok := parseBasicAuth(req.AuthorizationToken)
 	fmt.Printf("Token: %s\n", req.AuthorizationToken)
-	fmt.Printf("%s / %s / %b\n", user, pass, ok)
+	fmt.Printf("%s / %s / %t\n", user, pass, ok)
 	if !ok || c.Users[user] == "" || subtle.ConstantTimeCompare([]byte(c.Users[user]), []byte(pass)) != 1 { //revive:disable-line:line-length-limit
 		return events.APIGatewayCustomAuthorizerResponse{}, errors.New("Unauthorized") //revive:disable-line
 	}
