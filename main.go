@@ -48,6 +48,8 @@ func handler(req events.APIGatewayCustomAuthorizerRequest) (events.APIGatewayCus
 		return events.APIGatewayCustomAuthorizerResponse{}, errors.New("Unauthorized") //revive:disable-line
 	}
 
+	fmt.Printf("Authorizing for %s\n", req.MethodArn)
+
 	return events.APIGatewayCustomAuthorizerResponse{
 		PrincipalID: "user",
 		PolicyDocument: events.APIGatewayCustomAuthorizerPolicy{
