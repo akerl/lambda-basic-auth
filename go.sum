@@ -1,5 +1,5 @@
-github.com/akerl/go-lambda v0.5.0 h1:aaXuWk2j/NOjL9tJtD/N7lxRj5M8P4Cil0+2fVjJ69k=
-github.com/akerl/go-lambda v0.5.0/go.mod h1:tNOGTmC3cJPj6sIoVh47eTX6ca6RXZpUPFzJKtDbBrA=
+github.com/akerl/go-lambda v0.6.0 h1:5SlD9WVZsyhPPdT0iOrRw84I9HPg1dz6wF1q1krcosc=
+github.com/akerl/go-lambda v0.6.0/go.mod h1:tNOGTmC3cJPj6sIoVh47eTX6ca6RXZpUPFzJKtDbBrA=
 github.com/aws/aws-lambda-go v1.41.0 h1:l/5fyVb6Ud9uYd411xdHZzSf2n86TakxzpvIoz7l+3Y=
 github.com/aws/aws-lambda-go v1.41.0/go.mod h1:jwFe2KmMsHmffA1X2R09hH6lFzJQxzI8qK17ewzbQMM=
 github.com/aws/aws-sdk-go-v2 v1.18.0 h1:882kkTpSFhdgYRKVZ/VCgf7sd0ru57p2JCxz4/oN5RY=

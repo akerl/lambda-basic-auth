@@ -3,7 +3,7 @@ module github.com/akerl/lambda-basic-auth
 go 1.20
 
 require (
-	github.com/akerl/go-lambda v0.5.0
+	github.com/akerl/go-lambda v0.6.0
 	github.com/aws/aws-lambda-go v1.41.0
 )
 
